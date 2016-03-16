@@ -1,0 +1,139 @@
+body,h1,h2,h3,h4,h5,h6{
+	padding:0;
+	margin:0;
+	font-style:normal;}
+h1{
+	color:#333333;}
+h4,h6,h3{
+	color:#262525;
+	line-height:24px;
+	}
+
+/*头部*/
+.headerBox{
+	width:100%;
+	height:60px;
+	background-color:#333333;
+	position:fixed;
+	top:0;
+	left:0;
+	box-shadow:0px 4px 1px #2e2e2e}
+.headerBox span{
+	display:inline-block;
+	}
+span.alinkBox{
+	float:right;
+	margin-right:40px;}
+span.logoImg{
+	margin-left:40px;}
+span.logoImg img{
+	margin-top:8px;
+	}
+ul.d-alink li,span.logoImg{
+	float:left;
+	color:#ffffff;}
+ul.d-alink li{
+	margin-right:40px;
+	list-style:circle;}
+ul.d-alink li:hover{
+	color:#f8bddb;}	
+/*内容整体*/
+.contanierBox{
+	width:100%;
+	height:auto;
+	background:#dedede;
+	padding-top:80px;}
+/*part-o*/	
+.contBox{
+	width:90%;
+	height:auto;
+	background:#FFF;
+	box-shadow:2px 2px 3px #9f9f9f;
+	margin:0px auto 20px;
+	}
+.part-o,.part-t,.part-w,.part-f{
+	padding:24px 50px ;}
+.contBox img{
+	border:4px solid #f8bddb;}	
+.part-o .img-left{
+	float:left;
+	margin:10px 30px 6px 0px;}
+.part-o p{
+	text-indent:40px;
+	margin-top:20px;
+	text-align:justify;}	
+	
+/*part-w*/	
+.part-w h1{
+	line-height:80px;}	
+/*part-t*/	
+.part-t ul li{
+	list-style:upper-roman;
+	color:#85164e;
+	}
+.part-t ul li a{
+	color:#85164e;
+	}	
+.zp-list{
+	width:100%;}	
+.zp-list tr{
+	height:40px;
+	text-align:center;}	
+.zp-list th{
+	background:#a6306b;
+	}	
+.zp-list td{
+	background:#eac5d8;
+	}
+/*part-f*/		
+.asideList,.artiCont{
+	float:left;}	
+.part-f{
+	height:580px;}	
+.part-f li{
+	height:50px;
+	width:300px;;
+	background:#f8bddb;
+	border-bottom:1px dashed #9e4773;
+	list-style:none;
+	text-align:center;
+	font-size:20px;
+	line-height:50px;}	
+.part-f li a{
+	text-decoration:none;
+	color:#310a1e;}	
+.artiCont{
+	width:600px;
+	height:400px;
+	background:#f8bddb;
+	border:1px dashed #9e4773;
+	margin:20px 0px 0px 60px;
+	}
+.artiCont table{
+	margin: 40px auto 0px;}	
+.artiCont table th{
+	width:130px;
+	height:30px;
+	vertical-align:text-top;
+	text-align:right;
+	}	
+	
+	
+.tjBtn{
+	width:100%;
+	background:#bb1a6b;
+	border-radius:10px;
+	font-size:20px;
+	text-align:center;
+	line-height:60px;
+	color:#FFF;}	
+	
+footer{
+	width:100%;
+	height:60px;
+	background-color:#333333;
+	box-shadow:0px -4px 1px #2e2e2e;
+	color:#FFF;
+	text-align:center;
+	line-height:60px;
+	}
