@@ -1,0 +1,51 @@
+body{
+	padding:0;
+	margin:0;}
+.contanierBox{
+	margin:20px 20px 20px 20px;
+	background:#eeeeee;
+	border:#999999;
+	padding:20px;
+	height:430px;
+	position:relative;
+	border:1px solid #999;
+	overflow:hidden;}
+.asideBox,.articleBox,.teamBox{
+	border:1px solid #979797;
+	background:#FFF;
+	padding:20px;
+	}
+.asideBox{
+	width:158px;
+	height:auto;
+	float:left;
+	}
+img{
+	border:1px solid #979797;}
+img.logo_o{
+	display:inline-block;
+	}
+.logoName{
+	display:inline-block;
+	position: absolute;
+	left:138px;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	}
+.articleBox{
+	width:auto;
+	height:auto;
+	position:relative;
+	margin:0px 140px 0px 220px;
+}
+.teamBox{
+	 width:80px;
+	 position:absolute;
+	 right:20px;
+	 top:20px;
+}
+.teamBox img{
+	display:block;
+	}
+img.img-o{
+	margin-bottom:20px;}
