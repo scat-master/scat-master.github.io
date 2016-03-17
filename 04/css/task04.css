@@ -1,0 +1,30 @@
+body{
+	padding:0;
+	margin:0;}
+.box{
+	width:400px;
+	height:200px;
+	background:#cccccc;
+	position: absolute;
+	left:50%;
+	margin-left:-200px;
+	top:50%;
+	margin-top:-100px;}
+.box span{
+	display:block;
+	width:50px;
+	height:50px;
+	background:#ffcc00;}
+.box span.squ-left{
+	border-radius:0px 0px 100% 0px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	}
+.box span.squ-right{
+	border-radius:100% 0px 0px 0px;
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	
+	}
