@@ -65,7 +65,7 @@ header span{
 /*part-w*/
 .part-w{
 	height:142px;
-	padding:40px 0px 70px;
+	padding:40px 0px 100px;
 	}
 .what,.when{
 	margin-right:40px;
@@ -79,7 +79,8 @@ header span{
 }
 .p-when,.p-what,.p-how{
 	font-size:16px;
-	text-decoration:underline;}
+	text-decoration:underline;
+	line-height: 30px;}
 .p-when{color:#418c59;}
 .p-what{color:#d39b53;}
 .p-how,.num span{color:#cc8091;}
@@ -142,7 +143,7 @@ p.china-t{
 	background:#eeedd6;
 	color:#5a5b5b;
 	margin-top: 20px;
-	height:316px;
+	height:317px;
 	}	
 .rt-bottom p{
 	font-size:16px;
