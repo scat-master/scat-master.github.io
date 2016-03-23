@@ -2,13 +2,15 @@ body,p{
 	padding:0;
 	margin:0;}
 .contanierBox{
-	width:890px;
+	width:892px;
 	height:auto;
 	padding:0 45px 60px;
 	margin:0 auto;
-	font-size:12px;}
+	font-size:12px;
+	word-break:break-all}
 .content{
-	width:100%;}
+	width:100%;
+	position:relative;}
 /*头部*/
 header{
 	width:100%;
@@ -33,6 +35,7 @@ header span{
 /*part-o*/
 .part-o{
 	margin-top:34px;
+	height:301px;
 	}
 .part-o img{
 	display:inline-block;
@@ -41,6 +44,7 @@ header span{
 	width:203px;
 	border-top:2px solid #cc8091;
 	float:right;
+   font-family: "微软雅黑";
 	}
 .part-o_right p:nth-child(1){
 	font-size:24px;
@@ -48,23 +52,24 @@ header span{
 	color:#040000;
 	}
 .part-o_right p:nth-child(2){
-	color:#676767
+	color:#676767;
+	font-family:"宋体";
 	}
 .part-o_right p:nth-child(3){
 	font-size:110px;
 	color:#75b86b;
 	font-style:italic;
 	font-weight:700;
-	margin:10px 0px -18px -15px;
+    margin:15px 0px -17px -15px;
 	}
 /*part-w*/
 .part-w{
-
+	height:142px;
+	padding:40px 0px 70px;
 	}
 .what,.when{
-	margin-top:40px;}
-.how{
-	margin-top:30px;}
+	margin-right:40px;
+	line-height:16px;}
 .what,.when,.how{
 	display:inline-block;
 	float:left;
@@ -81,10 +86,11 @@ header span{
 p.num-o{
 	margin-top:30px;}
 p.num,p.line{
-	line-height:20px;
+	
 	}
 p.line{
 	color:#767777;
+	line-height: 20px;
 	}
 .num span{
 	font-style:italic;}
@@ -92,8 +98,8 @@ p.line{
 /* part-t*/
 .part-t{
 	clear:left;
-	padding-top:72px;
 	width:100%;
+	height:615px;
 	}
 .title-t{
 	font-size:42px;
@@ -115,7 +121,7 @@ p.china-t{
 	text-align:justify;}
 .BImg{
 	float:right;
-	margin:21px 0px 0px 6px;}
+	margin: 17px 0px 12px 6px;}
 .clear{
 	clear:both;}
 .t-left{
@@ -124,17 +130,19 @@ p.china-t{
 	}
 .qian-t p{
 	color:#767777;
+	line-height: 16px;
 	}
 .qian-t{
 	margin:25px 0px 43px;}
 .t-right{
 	float:right;
+	width: 460px;
 	}	
 .rt-bottom{
 	background:#eeedd6;
 	color:#5a5b5b;
-	margin-top:46px;
-	height:328px;
+	margin-top: 20px;
+	height:316px;
 	}	
 .rt-bottom p{
 	font-size:16px;
